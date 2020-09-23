@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:300,600");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Oswald&display=swap");
+
+/* LANDING section begins here */
+
+#team-landing {
+  padding-top: 80px;
+}
+
+.team-hero-image {
+  background: url("/Comake/assets/tom-rumble-7lvzopTxjOU-unsplash.jpg");
+  height: 80vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10%;
+  color: white;
+  text-align: center;
+}
+
+.team-hero-image h1 {
+  font-size: 15rem;
+  font-family: "Oswald", sans-serif;
+}
+
+/* landing section ends here */
+
+#team-headline {
+  text-align: center;
+  margin-bottom: 8vh;
+}
+
+#team-headline h1 {
+  font-size: 3.5rem;
+}
+
+/* TEAM GALLERY section begins here */
+
+#team-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+
+.team-card {
+  width: 30%;
+  margin: 1.6%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 6%;
+}
+.team-card h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  padding: 1vh 0;
+}
+
+.team-card p {
+  font-size: 1.3rem;
+}
+
+.team-member-image img {
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .team-card {
+    width: 46%;
+  }
+}
+
+@media (max-width: 500px) {
+  #team-landing {
+    padding-top: 66px;
+  }
+  .team-card {
+    width: 90%;
+  }
+  #team-gallery {
+    justify-content: center;
+  }
+}

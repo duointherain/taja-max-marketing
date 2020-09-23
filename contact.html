@@ -3,65 +3,70 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Comake</title>
-
-    <link rel="stylesheet" type="text/css" href="styles/missionvission.css" />
-    <link rel="icon" href="assets/icon2.png" />
+    <title>Co-Make</title>
     <link
-      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
       rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="styles/contact.css" />
   </head>
   <body>
-  
-
-    <header class="menu">
-      <nav>
-        <div class="masthead">
-          <div><img class="mv-logo" src="assets/logo1.png" /></div>
-          <div><a href="index.html">Home</a></div>
-          <div><a href="mission.html">Mission</a></div>
-          <div><a href="team.html">Team</a></div>
-          <div><a href="contact.html">Contact</a></div>
-          <div><a href="faq.html">FAQ</a></div>
-          <div><a href="https://co-make-taja.netlify.app/">Login</a></div>
-
-        </div>
+    <header>
+      <img class="logo" src="assets/logo1.png" />
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <nav class="menu-bar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li>
+            <a>About</a>
+            <div class="sub-menu1">
+              <ul>
+                <li><a href="mission.html">Mission</a></li>
+                <li><a href="team.html">Our Team</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="vision.html">The Future</a></li>
+        </ul>
       </nav>
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
     </header>
-    <div>
-      <div class="main-body">
-        <div><img class="mv-logo3" src="assets/logo1.png" /></div>
-        <section class="main-art">
-          <img
-            id="mv-logo2"
-            src="assets/mission2.png"
-            alt="hands of different sizes and shades laying on each other"
-          />
-        </section>
 
-        <section class="mission">
-          <h1>Contact Here</h1>
-        
-            
-          </p>
-         
-          <p><a class="email" href="vision.html">Sign Up Today!</a></p>
-        </section>
+    <section id="contact-landing">
+      <h1>Contact Us.</h1>
+      <h2>
+        Want to get in touch with us? We'd love to hear from you. Here's how you can reach us...
+      </h2>
+    </section>
+
+    <section id="contact-info">
+      <div class="number">
+        <h3>1-555-555-1234</h3>
+        <p>Monday - Friday</p>
+        <p>8:00AM - 6:00PM PST</p>
+        <a href="mailto:info@comake.com">SEND AN EMAIL</a>
       </div>
-    </div>
-    <footer class="foot">
-      <section id="question"><p>Together we make the world better!</p></section>
-  
-      <div class="email">
-        <a href="mailto:agreatemail@here.com">Contact Us</a>
+      <div class="address">
+        <h3>Main Office</h3>
+        <p>1234 Sesame Street</p>
+        <p>San Ramon, CA 94582</p>
+        <p>1-555-555-1234</p>
+      </div>
+    </section>
+    <footer>
+      <section id="question">
+        <p>Together we make the world better!</p>
+      </section>
+      <div id="contact">
+        <a class="email" href="mailto:agreatemail@here.com">Contact Us</a>
       </div>
     </footer>
   </body>
- 
 </html>
-
