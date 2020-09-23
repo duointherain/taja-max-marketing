@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:300,600");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Oswald&display=swap");
+
+/* main section begins here */
+
+#contact-landing {
+  padding-top: 80px;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+#contact-landing h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 10rem;
+  padding: 10% 0 5%;
+}
+
+#contact-landing h2 {
+  font-size: 3rem;
+  padding-bottom: 25%;
+}
+
+#contact-info {
+  display: flex;
+  justify-content: space-around;
+  padding: 5% 0 4%;
+  background-color: var(--honeyDew);
+}
+
+#contact-info h3,
+a {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3rem;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 5%;
+}
+
+#contact-info .number {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact-info .number a {
+  padding-top: 9%;
+  color: var(--prussianBlue);
+}
+
+/* footer {
+    background-color: rgba(75, 136, 216);
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .site-map {
+    display: flex;
+    flex-direction: column;
+}
+
+footer a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+} */
+
+@media (max-width: 800px) {
+  #contact-info {
+    flex-direction: column;
+    text-align: center;
+  }
+  #contact-info .number a {
+    padding: 5% 0;
+  }
+}
+
+@media (max-width: 500px) {
+  #contact-landing h1 {
+    font-size: 6rem;
+    padding-bottom: 20%;
+  }
+}
