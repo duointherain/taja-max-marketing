@@ -1,0 +1,346 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:300,600");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Oswald&display=swap");
+
+/* reset ends here*/
+
+#mainBox {
+  display: flex;
+  align-content: center;
+}
+
+footer {
+  display: flex;
+  margin: 0rem, 25rem;
+  background: var(--lightBlueBg);
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 7rem;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-size: 1.125rem;
+  position: relative;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  background-color: hsl(214, 64%, 57%);
+  height: 5rem;
+  justify-content: center;
+  padding-top: 1rem;
+  font-family: "Oswald", sans-serif;
+  margin: auto;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  margin: auto;
+  padding: 1rem;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+}
+
+/* h1{
+    text-align: center;
+} */
+.masthead {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 1rem;
+}
+.mv-logo {
+  height: 5rem;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.mv-logo3 {
+  display: none;
+}
+
+/* Header bar */
+nav {
+  display: flex;
+  margin: auto;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  transition: opacity 150ms ease-in-out;
+  margin: auto;
+  border: hsl(215, 50%, 23%);
+}
+a:link {
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 1rem;
+  margin: auto;
+}
+
+/* visited link */
+a:visited {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: hsl(215, 50%, 23%);
+  text-decoration: none;
+  border-bottom: hsl(183, 43%, 76%);
+  transition: 2s;
+}
+
+/* selected link */
+a:active {
+  color: blanchedalmond;
+  text-decoration: none;
+}
+/* end header bar */
+
+.link2 {
+  color: yellow;
+}
+.main-body {
+  display: flex;
+  flex-direction: row;
+}
+.email {
+  color: yellow;
+  text-decoration: none;
+  background-color: hsl(214, 64%, 57%);
+  border-radius: 25px;
+  border-color: blanchedalmond;
+  
+}
+.mission {
+  padding-bottom: 2rem;
+}
+
+footer {
+  background-color: hsl(214, 64%, 57%);
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.main-body {
+  display: flexbox;
+  text-align: center;
+  justify-content: center;
+  /* padding-left: 5rem; */
+  padding-right: 2rem;
+  padding-top: 5rem;
+  margin: auto;
+}
+
+body {
+  justify-content: center;
+  /* text-align: center; */
+}
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.foot {
+  bottom: 0;
+  left: 0;
+  /* position: fixed; */
+  text-align: center;
+  width: 100%;
+  z-index: -1;
+  font-family: "Oswald", sans-serif;
+}
+#contact {
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 800px) {
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    transition: opacity 150ms ease-in-out;
+    margin: auto;
+    border: hsl(215, 50%, 23%);
+  }
+}
+
+@media (max-width: 500px) {
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: hsl(214, 64%, 57%);
+    height: 5rem;
+    justify-content: center;
+    padding-top: 1rem;
+    font-family: "Oswald", sans-serif;
+    margin: auto;
+  }
+  .mv-logo {
+    display: none;
+  }
+
+  .mv-logo3 {
+    display: initial;
+    height: 7rem;
+    padding: 1rem;
+    border-radius: 50%;
+  }
+
+  .main-body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-body {
+    display: flexbox;
+    text-align: center;
+    justify-content: center;
+    /* padding-left: 5rem; */
+    padding-right: 2rem;
+    padding-top: 1rem;
+    margin: auto;
+  }
+}
