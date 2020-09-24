@@ -247,7 +247,7 @@ a:active {
   text-decoration: none;
   background-color: hsl(214, 64%, 57%);
   border-radius: 25px;
-  border-color: blanchedalmond;
+  border-color: black;
   
 }
 .mission {
@@ -256,7 +256,7 @@ a:active {
 
 footer {
   background-color: hsl(214, 64%, 57%);
-  height: 5rem;
+  height: 6rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -288,6 +288,7 @@ nav {
   /* position: fixed; */
   text-align: center;
   width: 100%;
+  
   z-index: -1;
   font-family: "Oswald", sans-serif;
 }

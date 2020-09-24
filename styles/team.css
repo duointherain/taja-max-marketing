@@ -73,8 +73,10 @@ h1{
 }
 
 .team-member-image img {
-  width: 75%;
+  width: 75%; 
+  /* max changed from 100% */
   border-radius: 50%;
+  /* max aded this */
 }
 
 @media (max-width: 800px) {
