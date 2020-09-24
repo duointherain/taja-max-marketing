@@ -275,11 +275,12 @@ a:active {
   flex-direction: row;
 }
 .email {
-  color: yellow;
+  
   text-decoration: none;
   background-color: hsl(214, 64%, 57%);
   border-radius: 25px;
   border-color: black;
+  font-family: "Roboto", sans-serif;
   
 }
 .mission {
@@ -326,6 +327,7 @@ nav {
 }
 #contact {
   padding-bottom: 1rem;
+  
 }
 
 @media (max-width: 800px) {
