@@ -7,7 +7,9 @@ CoMake is a school project where the team built the foundation of social media s
 ## Installation
 
 It is a webpage and should be accessed via a suitable web browser.
-```
+
+## Our website
+    https://youthful-pare-d60ecb.netlify.app/index.html
 
 ## Usage
 
