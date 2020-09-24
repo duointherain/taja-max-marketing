@@ -8,7 +8,7 @@
 }
 
 .team-hero-image {
-  background: url("/assets/tom-rumble-7lvzopTxjOU-unsplash.jpg");
+  background-image: url("assets/tom-rumble-7lvzopTxjOU-unsplash.jpg");
   height: 80vh;
   width: 100%;
   background-size: cover;
@@ -20,6 +20,11 @@
   margin-bottom: 10%;
   color: white;
   text-align: center;
+}
+
+h1{
+  padding-top: 2rem; 
+  /* Max added this to move the title down a little. */
 }
 
 .team-hero-image h1 {
@@ -45,6 +50,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 5%;
+  
 }
 
 .team-card {
@@ -67,7 +73,10 @@
 }
 
 .team-member-image img {
-  width: 100%;
+  width: 75%; 
+  /* max changed from 100% */
+  border-radius: 50%;
+  /* max aded this */
 }
 
 @media (max-width: 800px) {
@@ -85,5 +94,8 @@
   }
   #team-gallery {
     justify-content: center;
+  }
+  #team-headline h1{
+    font-size: 2rem;
   }
 }
