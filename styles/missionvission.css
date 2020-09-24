@@ -155,6 +155,7 @@ footer {
 
 header {
   display: flex;
+  flex-wrap: wrap;
   background-color: hsl(214, 64%, 57%);
   height: 5rem;
   justify-content: center;
