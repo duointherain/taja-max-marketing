@@ -1,2 +1,21 @@
-# taja-max-marketing
-the secondary project
+
+
+# CoMake
+
+CoMake is a school project where the team built the foundation of social media site.
+
+## Installation
+
+It is a webpage and should be accessed via a suitable web browser.
+```
+
+## Usage
+
+
+It is primarily a learning exercise. 
+
+## Contributing
+Thank you for your interest. To use this repo, please contact Lambda School. 
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)

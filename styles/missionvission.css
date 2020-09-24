@@ -138,20 +138,7 @@ table {
   align-content: center;
 }
 
-footer {
-  display: flex;
-  margin: 0rem, 25rem;
-  background: var(--lightBlueBg);
-  flex-direction: row;
-  justify-content: space-evenly;
-  height: 7rem;
-  text-align: center;
-  color: white;
-  text-decoration: none;
-  font-size: 1.125rem;
-  position: relative;
-  align-items: center;
-}
+
 
 header {
   display: flex;
@@ -279,7 +266,7 @@ a:active {
 }
 
 .email {
-  
+
   
   text-decoration: none;
   background-color: hsl(214, 64%, 57%);
@@ -292,12 +279,20 @@ a:active {
   padding-bottom: 2rem;
 }
 
+
 footer {
-  background-color: hsl(214, 64%, 57%);
-  height: 10rem;
   display: flex;
+  margin: 0rem, 25rem;
+  background: hsl(214, 64%, 57%);
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
+  height: 7rem;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-size: 1.125rem;
+  position: relative;
+  align-items: center;
   margin-top: 2rem;
 }
 
