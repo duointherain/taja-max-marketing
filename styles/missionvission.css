@@ -173,6 +173,15 @@ h1 {
   font-family: "Roboto", sans-serif;
   font-size: 2rem;
 }
+h4{
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+}
+
+h6{
+  font-family: "Roboto", sans-serif;
+  font-size: .7rem;
+}
 
 /* h1{
     text-align: center;
@@ -321,6 +330,10 @@ nav {
     margin: auto;
   }
   .mv-logo {
+    display: none;
+  }
+  
+  #homeschool{
     display: none;
   }
 
