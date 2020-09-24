@@ -289,7 +289,7 @@ a:active {
 
 footer {
   background-color: hsl(214, 64%, 57%);
-  height: 6rem;
+  height: 10rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
