@@ -95,4 +95,7 @@ h1{
   #team-gallery {
     justify-content: center;
   }
+  #team-headline h1{
+    font-size: 2rem;
+  }
 }

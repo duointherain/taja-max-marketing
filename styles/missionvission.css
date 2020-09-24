@@ -228,7 +228,10 @@ h6{
 nav {
   display: flex;
   margin: auto;
+  display: flex;
+  flex-direction: row;
 }
+
 
 nav a {
   color: white;
@@ -274,7 +277,8 @@ a:active {
   display: flex;
   flex-direction: row;
 }
-.email {
+
+#content .email {
   
   text-decoration: none;
   background-color: hsl(214, 64%, 57%);
@@ -310,10 +314,7 @@ body {
   justify-content: center;
   /* text-align: center; */
 }
-nav {
-  display: flex;
-  flex-direction: row;
-}
+
 
 .foot {
   bottom: 0;
