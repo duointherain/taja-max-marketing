@@ -8,7 +8,7 @@
 }
 
 .team-hero-image {
-  background: url("/Comake/assets/tom-rumble-7lvzopTxjOU-unsplash.jpg");
+  background-image: url("assets/tom-rumble-7lvzopTxjOU-unsplash.jpg");
   height: 80vh;
   width: 100%;
   background-size: cover;
@@ -20,6 +20,11 @@
   margin-bottom: 10%;
   color: white;
   text-align: center;
+}
+
+h1{
+  padding-top: 2rem; 
+  /* Max added this to move the title down a little. */
 }
 
 .team-hero-image h1 {
@@ -45,6 +50,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 5%;
+  
 }
 
 .team-card {
@@ -67,7 +73,8 @@
 }
 
 .team-member-image img {
-  width: 100%;
+  width: 75%;
+  border-radius: 50%;
 }
 
 @media (max-width: 800px) {
