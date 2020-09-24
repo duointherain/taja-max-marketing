@@ -173,14 +173,36 @@ h1 {
   font-family: "Roboto", sans-serif;
   font-size: 2rem;
 }
-h4{
+h2{
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
+  padding: 1rem;
+}
+
+h3{
+  font-family: "Roboto", sans-serif;
+  font-size: 1.25rem;
+  font-style: italic;
+  padding: 1rem;
+}
+
+h4{
+  font-family: "Roboto", sans-serif;
+  font-size: 1.75rem;
+  padding: 1rem;
 }
 
 h6{
   font-family: "Roboto", sans-serif;
   font-size: .7rem;
+  padding: 1rem;
+}
+
+.links{
+  font-family: "Roboto", sans-serif;
+  background-color:hsl(214, 64%, 57%);
+  border-radius: 20px;
+ 
 }
 
 /* h1{
